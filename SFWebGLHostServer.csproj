@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <OutputType>Exe</OutputType>
+	  <TargetFramework>net6.0</TargetFramework>
+	  <RuntimeIdentifiers>linux-arm64;win-x64</RuntimeIdentifiers>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Library\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SFCSharpServerLib">
+      <HintPath>..\VRCarCampingHttpServer\VRCarCampingHttpServer\Library\SFCSharpServerLib.dll</HintPath>
+    </Reference>
+    <Reference Include="SFHttpServer">
+      <HintPath>..\VRCarCampingHttpServer\VRCarCampingHttpServer\Library\SFHttpServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SFTcpServer">
+      <HintPath>..\VRCarCampingHttpServer\VRCarCampingHttpServer\Library\SFTcpServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

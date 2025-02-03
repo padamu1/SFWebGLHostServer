@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/linux-arm64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/linux-arm64": {
+      "SFHttpServer/1.0.0": {
+        "dependencies": {
+          "SFCSharpServerLib": "1.0.0",
+          "SFTcpServer": "1.0.0"
+        },
+        "runtime": {
+          "SFHttpServer.dll": {}
+        }
+      },
+      "SFCSharpServerLib/1.0.0": {
+        "runtime": {
+          "SFCSharpServerLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SFTcpServer/1.0.0": {
+        "runtime": {
+          "SFTcpServer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SFHttpServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SFCSharpServerLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SFTcpServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
